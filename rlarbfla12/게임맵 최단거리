@@ -1,0 +1,32 @@
+from collections import deque
+
+def solution(maps):
+    dx = [-1, 1, 0, 0]
+    dy = [0, 0, -1, 1]
+
+    N = len(maps)
+    M = len(maps[0])
+
+    Q = deque()
+    # 출발점 추가
+    Q.append((0, 0))
+
+    # Q가 빌 때까지 실행
+    while Q:
+        # 제일 앞 요소 꺼냄
+        x, y = Q.popleft()
+        for i in range(4):      # 네방향 이동
+            nx = x + dx[i]
+            ny = y + dy[i]
+
+            if 0 <= nx < N and 0 <= ny < M:     # 새로운 위치가 그래프 범위안에 있고
+                if maps[nx][ny] == 1:           # 길이 1이라면
+                    maps[nx][ny] = maps[x][y] + 1       # 현재 위치 + 1
+                    Q.append((nx, ny))          # 새로운 위치 Q에 추가
+
+    answer = maps[N-1][M-1]     # 도착점 answer에 저장
+
+    if answer == 1:     # 도착점 여전히 1이면 도착 못한 것
+        return -1
+    else:
+        return answer   # 아니면 도착점의 값 (최소거리) 반환
