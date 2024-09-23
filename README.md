@@ -57,6 +57,6 @@ SWEA: 쭈니쌤이랑 풀었던 문제 중
 | 2주차 (09.03~09.09) | 신희진 | 백준 골드1, 백준 실버 5 | [달이 차오른다, 가자. - BFS](https://www.acmicpc.net/problem/1194) | [문서검색 - 그리디](https://www.acmicpc.net/problem/1543)  |     [컴백홈 - DFS](https://www.acmicpc.net/problem/1189)               |
 | 3주차 (09.09~09.16) | 연상헌 | 백준 골4, 백준 실1    | [카드 정렬하기 - 그리디](https://www.acmicpc.net/problem/1715)          | [카드 구매하기 - DP](https://www.acmicpc.net/problem/11052) |  [게임맵 최단거리 - BFS](https://school.programmers.co.kr/learn/courses/30/lessons/1844)  |
 | 4주차 (09.17~09.23) | 김규림 | 백준 실3    | [계단 오르기 - DP](https://www.acmicpc.net/problem/2579)         |  |  [카드 정렬하기 - 그리디](https://www.acmicpc.net/problem/1715)  |
-| 5주차 (09.24~09.30) | 이찬규 | 백준 실3    | [유기농 배추 - 그래프](https://www.acmicpc.net/problem/1012)         | [나의 FIFA 팀 가치는? - 우선순위 큐](https://www.acmicpc.net/problem/29160) |  [계단 오르기 - DP](https://www.acmicpc.net/problem/2579)  |
+| 5주차 (09.24~09.30) | 이찬규 | 백준 실2, 백준 실2    | [유기농 배추 - 그래프](https://www.acmicpc.net/problem/1012)         | [나의 FIFA 팀 가치는? - 우선순위 큐](https://www.acmicpc.net/problem/29160) |  [계단 오르기 - DP](https://www.acmicpc.net/problem/2579)  |
 <hr>
 
