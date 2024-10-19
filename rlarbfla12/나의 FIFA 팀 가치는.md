@@ -44,3 +44,33 @@ for i in range(11):
 # 결과 출력 - K년 후 최종 팀의 총 가치
 print(total)
 ```
+
+
+```python
+import heapq
+import sys
+input = sys.stdin.readline
+
+n, k = map(int, input().split())
+best = [[] for _ in range(12)]      # 각 포지션의 선수 가치 저장
+
+for _ in range(n):
+    p, w = map(int, input().split())
+    heapq.heappush(best[p], -w)     # 선수 가치 음수로 저장(heapq 최솟값 뽑음)
+
+for _ in range(k):      # k년 동안
+    for i in range(1, 12):
+        if best[i]:     # 포지션에 선수 있으면 가장 가치 큰 선수 뽑기
+            player = heapq.heappop(best[i])
+            if player < 0:      # 음수니까 가치 -1을 +로 함
+                player += 1
+            heapq.heappush(best[i], player)
+
+worth = 0
+for i in range(1, 12):
+    if best[i]:
+        worth += heapq.heappop(best[i])
+
+print(abs(worth))
+
+```
