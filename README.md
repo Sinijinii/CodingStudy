@@ -68,5 +68,6 @@ SWEA: 쭈니쌤이랑 풀었던 문제 중
 | 9주차 (11.05~11.12) | 김규림 | 백준 실1    | [스티커 - DP](https://www.acmicpc.net/problem/9465)         |  | [알파벳 - DFS](https://www.acmicpc.net/problem/1987)|
 | 10주차 (11.12~11.19) | 조창훈 | 리트코드 easy    | [94. Binary Tree Inorder Traversal - DFS](https://leetcode.com/problems/binary-tree-inorder-traversal/)         |  | [스티커 - DP](https://www.acmicpc.net/problem/9465)|
 | 11주차 (11.29~12.03) | 조창훈 | 리트코드 easy    | [17. 전화번호의 문자 조합](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)       | [11. 가장 많은 물을 담은 용기](https://leetcode.com/problems/container-with-most-water/description/) |[94. Binary Tree Inorder Traversal - DFS](https://leetcode.com/problems/binary-tree-inorder-traversal/)|
+| 12주차 (12.09.~12.16) | 연상헌 | 리트코드 easy    | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)       | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) |[17. 전화번호의 문자 조합](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)|
 <hr>
 
