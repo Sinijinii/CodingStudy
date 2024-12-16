@@ -15,7 +15,7 @@
 - 디스코드 CODINGTESTSTUDY2방
 
 ### 스터디 방식
-1. 리트코드 75에서 순서대로 진행
+1. [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/)에서 순서대로 진행
 2. 일주일 4문제 풀이
 3. 그중 한문제는 복습문제로 진행
 ---
